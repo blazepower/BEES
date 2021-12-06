@@ -1,6 +1,7 @@
 # BEES
 
 This repository contains two scripts developed for the BEES EFRC
+All scripts require Python to be installed
 
 ---
 
@@ -19,3 +20,4 @@ Generator takes the BEES Publication Database and outputs HTML in the same forma
 A couple notes on this:
 * Ensure that the BEES Publications Database Excel spreadsheet is up to date and in the same folder as the python script
 * Modify row bounds on line 8 to only output HTML for rows that are needed
+* Ensure openpyxl library is installed e.g.: `pip install openpyxl`
