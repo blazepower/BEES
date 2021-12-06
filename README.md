@@ -15,3 +15,7 @@ A couple notes on this:
 ---
 ## Generator
 Generator takes the BEES Publication Database and outputs HTML in the same format as needed by the BEES Website
+
+A couple notes on this:
+* Ensure that the BEES Publications Database Excel spreadsheet is up to date and in the same folder as the python script
+* Modify row bounds on line 8 to only output HTML for rows that are needed
