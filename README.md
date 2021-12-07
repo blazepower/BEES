@@ -21,3 +21,4 @@ A couple notes on this:
 * Ensure that the BEES Publications Database Excel spreadsheet is up to date and in the same folder as the python script
 * Modify row bounds on line 8 to only output HTML for rows that are needed
 * Ensure openpyxl library is installed e.g.: `pip install openpyxl`
+* Run `python generator.py | clip.exe` to execute script and copy to clipboard if on Windows
